@@ -14,7 +14,7 @@ public class Main {
 
 
         ShoppingCart cart = new ShoppingCart(products);
-        System.out.println(redApple.getAppleDiscount());
+
         System.out.println("Общая сумма товаров без скидки: "
                 + cart.getTotalPriceNotDiscount());
         System.out.println("Общая сумма товаров со скидкой: "
