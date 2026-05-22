@@ -1,8 +1,6 @@
 package model;
 
-import model.constants.Colour;
 
-import static model.constants.Discount.DISCOUNT;
 
 public abstract class Food  {
     protected int amount;
