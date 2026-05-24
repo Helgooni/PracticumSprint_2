@@ -1,24 +1,17 @@
 package model;
 
-
-
-public abstract class Food  {
+public abstract class Food implements Discountable  {
     protected int amount;
     protected double price;
     protected boolean isVegetarian;
-
     public Food (int amount, double price){
         this.amount = amount;
         this.price = price;
 
     }
-
-
     public boolean isVegetarian() {
         return isVegetarian;
     }
-
-    
     public double getTotalPrice() {
         return amount * price;
     }
